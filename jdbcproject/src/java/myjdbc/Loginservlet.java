@@ -48,7 +48,7 @@ public class Loginservlet extends HttpServlet {
 //            out.println(s5);
 //            out.println(s6);
 
-            MyDao md = MyDao.getInstance();
+           MyDao md = MyDao.getInstance();
            String url="jdbc:mysql://localhost:3306/myreg?useSSL=false&allowPublicKeyRetreival=true";
            String user="gauhar";
            String password="gauhar123";
